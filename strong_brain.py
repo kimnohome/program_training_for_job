@@ -160,6 +160,8 @@ def can_tong(N_M, str_1, str_2):
 if __name__ == '__main__':
     # print main_func()
     # print main_func('atob','a','b')
+    # a=raw_input().split()
+    # print a
     N_M = raw_input()
     str_1 = raw_input()
     str_2 = raw_input()

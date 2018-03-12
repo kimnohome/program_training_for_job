@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93e73f48-9f9f-4935-85b6-587865e8c21c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/colorful_diamond.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_struct_lib/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/function_lib/Binary_num_pro.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/function_lib/Prime_pro.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/geohash_incode.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/strong_brain.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/function_lib/data_structure.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_title_recruit.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prime_pair.py" afterPath="$PROJECT_DIR$/prime_pair.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/strong_brain.py" afterPath="$PROJECT_DIR$/strong_brain.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +15,33 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="strong_brain.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strong_brain.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="834">
+              <caret line="163" column="13" lean-forward="true" selection-start-line="163" selection-start-column="13" selection-end-line="163" selection-end-column="13" />
+              <folding>
+                <element signature="e#968#1684#0" expanded="false" />
+                <element signature="e#1758#1892#0" expanded="false" />
+                <element signature="e#1939#2335#0" expanded="false" />
+                <element signature="e#2379#3080#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="top_title_recruit.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/top_title_recruit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="985">
+              <caret line="81" column="41" lean-forward="true" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,6 +66,7 @@
         <option value="$PROJECT_DIR$/geohash_incode.py" />
         <option value="$PROJECT_DIR$/colorful_diamond.py" />
         <option value="$PROJECT_DIR$/strong_brain.py" />
+        <option value="$PROJECT_DIR$/top_title_recruit.py" />
       </list>
     </option>
   </component>
@@ -108,25 +127,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.strong_brain">
-    <configuration default="false" name="Prime_pro" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/function_lib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="program_training_for_job" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/function_lib/Prime_pro.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.top_title_recruit">
     <configuration default="false" name="prime_pair" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,6 +200,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="top_title_recruit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="program_training_for_job" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/top_title_recruit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,19 +283,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Prime_pro" />
-      <item index="1" class="java.lang.String" itemvalue="Python.prime_pair" />
-      <item index="2" class="java.lang.String" itemvalue="Python.geohash_incode" />
-      <item index="3" class="java.lang.String" itemvalue="Python.strong_brain" />
-      <item index="4" class="java.lang.String" itemvalue="Python.colorful_diamond" />
+      <item index="0" class="java.lang.String" itemvalue="Python.prime_pair" />
+      <item index="1" class="java.lang.String" itemvalue="Python.geohash_incode" />
+      <item index="2" class="java.lang.String" itemvalue="Python.strong_brain" />
+      <item index="3" class="java.lang.String" itemvalue="Python.colorful_diamond" />
+      <item index="4" class="java.lang.String" itemvalue="Python.top_title_recruit" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.strong_brain" />
-        <item index="1" class="java.lang.String" itemvalue="Python.colorful_diamond" />
-        <item index="2" class="java.lang.String" itemvalue="Python.geohash_incode" />
-        <item index="3" class="java.lang.String" itemvalue="Python.prime_pair" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Prime_pro" />
+        <item index="0" class="java.lang.String" itemvalue="Python.top_title_recruit" />
+        <item index="1" class="java.lang.String" itemvalue="Python.strong_brain" />
+        <item index="2" class="java.lang.String" itemvalue="Python.colorful_diamond" />
+        <item index="3" class="java.lang.String" itemvalue="Python.geohash_incode" />
+        <item index="4" class="java.lang.String" itemvalue="Python.prime_pair" />
       </list>
     </recent_temporary>
   </component>
@@ -294,9 +313,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-541" width="916" height="1576" extended-state="6" />
+    <frame x="1912" y="-541" width="916" height="1576" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22746186" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -321,7 +341,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="17" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/top_title_recruit.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -403,14 +430,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/strong_brain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+        <state relative-caret-position="834">
+          <caret line="163" column="13" lean-forward="true" selection-start-line="163" selection-start-column="13" selection-end-line="163" selection-end-column="13" />
           <folding>
             <element signature="e#968#1684#0" expanded="false" />
             <element signature="e#1758#1892#0" expanded="false" />
             <element signature="e#1939#2335#0" expanded="false" />
             <element signature="e#2379#3080#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top_title_recruit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="985">
+          <caret line="81" column="41" lean-forward="true" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
