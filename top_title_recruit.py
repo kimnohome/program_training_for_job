@@ -43,6 +43,21 @@ c-b<=10
 
 '''
 
+def v2_main_func(NUM_pro, list_pro):
+    a = sorted(list_pro)
+    counter = 0
+    cnt = 0
+    for i in range(len(a)-1):
+        cnt += 1
+        if a[i+1] - a[i] > 10 or i+1 == len(a) - 1:
+            if i+1 == len(a) - 1:
+                cnt += 1
+            if cnt % 3 == 0:
+                pass
+            else:
+                counter += (3 - cnt % 3)
+            cnt = 0
+    return counter
 
 def v1_main_func(NUM_pro, list_pro):
     a = sorted(list_pro)
@@ -74,9 +89,10 @@ def v1_compute_block(list_block):
 
 if __name__ == '__main__':
     # NUM_pro = 4
-    # list_pro = [1,2,3,3,5,20,21,30,39,48,60]
+    # # list_pro = [1,2,3,3,5,20,21,30,39,48,60]
+    # list_pro = [20,23,35,40]
     NUM_pro = raw_input()
     list_pro_ = raw_input().split()
     list_pro = [int(s) for s in list_pro_]
     #print list_pro
-    print v1_main_func(NUM_pro, list_pro)
+    print v2_main_func(NUM_pro, list_pro)
