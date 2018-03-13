@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93e73f48-9f9f-4935-85b6-587865e8c21c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XOR.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/function_lib/Two_dimensional_list.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/top_title_recruit.py" afterPath="$PROJECT_DIR$/top_title_recruit.py" />
-    </list>
+    <list default="true" id="93e73f48-9f9f-4935-85b6-587865e8c21c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +28,8 @@
       <file leaf-file-name="XOR.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/XOR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+            <state relative-caret-position="100">
+              <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
               <folding>
                 <element signature="e#1045#1268#0" expanded="false" />
                 <element signature="e#1496#1674#0" expanded="false" />
@@ -631,8 +624,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/XOR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+        <state relative-caret-position="100">
+          <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
           <folding>
             <element signature="e#1045#1268#0" expanded="false" />
             <element signature="e#1496#1674#0" expanded="false" />
