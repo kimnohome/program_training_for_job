@@ -23,4 +23,26 @@
 2
 '''
 
+# 1.查找N以内的素数
 
+def find_prime_v1(N):
+    L = list(range(2, N + 1))
+    m = 0
+    while m < L.__len__():
+        n = m + 1
+        while n < L.__len__():
+            if L[n] % L[m] == 0:
+                L.remove(L[n])
+            n += 1
+        m += 1
+    return L
+
+
+if __name__ == '__main__':
+    n = int(raw_input())
+    prime_list = find_prime_v1(n)
+    counter = 0
+    for i in range(prime_list.__len__()):
+        if n - prime_list[i] in prime_list and n - prime_list[i] >= prime_list[i]:
+            counter += 1
+    print counter
