@@ -41,8 +41,37 @@ c-b<=10
 看到最少，最多什么的，我就想到广度搜索，但是看到10^5，我想想还是有点虚
 仔细看了一下，先排序，然后把相差10以上的块分开，每个块计算需要多少个题不就ok了
 
+#我少考虑了一点：分开的块，我要是加一个值连接起来不就成了整块了嘛
+20 23 35 40 60 只用加一个50再加一个数就好了
+也要考了相连是否有利
+感觉应该是动态规划的题，但是我不会
 '''
 
+def v2_main_func(NUM_pro, list_pro):
+    a = sorted(list_pro)
+    ind_1 = 0
+    ind_2 = 0
+    counter = 0
+    a_v1=[]
+    for i in range(len(list_pro)-1):
+        ind_2 += 1
+        if a[ind_2] - a[ind_1] > 10:
+            a_v1.append(a[ind_1:ind_2])
+            ind_1 = ind_2
+    if ind_1<ind_2:
+        a_v1.append(a[ind_1:ind_2 + 1]) # include the final number
+    elif ind_1 == ind_2:  # a[-1]-a[-2]>10
+        a_v1.append([a[-1]])
+    # get blocks
+    for i in range(len(a_v1)-1):
+        if can_lian(a_v1[i],a_v1[i+1]):
+            pass
+
+def can_lian(list1,list2):
+    if list1[0]-list1[-1]>20:
+        return False
+    else:
+        return True
 
 def v1_main_func(NUM_pro, list_pro):
     a = sorted(list_pro)
